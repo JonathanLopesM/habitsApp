@@ -11,3 +11,10 @@
   # ReactNative--Config-INIT
 # ReactNative--Config-INIT
 # ReactNative--Config-INIT
+
+
+
+# adb device - verify device smartphone
+
+# npx expo start --dev-client --clear
+

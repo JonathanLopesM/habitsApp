@@ -1,12 +1,17 @@
-import { View } from "react-native";
+import { LinearGradient } from "expo-linear-gradient";
+import { KeyboardAvoidingView, View } from "react-native";
 import { Header } from "../components/Header";
-
+import { Login } from "../components/Login";
 
 export function Home () {
   return (
-    <View className="flex-1 bg-background px-8 pt-16">
-      <Header />
-
-    </View>
+    <LinearGradient 
+    colors={['#36fcff', '#0056b7' ]} 
+    className=' w-full h-full' 
+    >
+      <KeyboardAvoidingView className="flex-1 px-8 pt-16">
+        <Login />
+      </KeyboardAvoidingView>
+    </LinearGradient>
   )
 }

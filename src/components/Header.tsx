@@ -1,5 +1,5 @@
 import { View, Text, TouchableOpacity } from "react-native";
-import {Feather} from '@expo/vector-icons/'
+import {Feather, FontAwesome5} from '@expo/vector-icons/'
 import colors from 'tailwindcss/colors'
 
 import Logo from '../assets/logo.svg';
